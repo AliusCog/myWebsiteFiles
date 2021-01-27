@@ -1,0 +1,49 @@
+How to Set Up An Arrow Animation on Your Wedsite
+
+1. Upload the arrow.css file from this folder into the public html folder for your website.
+
+2. Open the html file that you want to add the arrow to.
+
+3. Copy and paste this line of code in into the head of your html file.
+
+<link rel="stylesheet" href="arrow.css">
+
+4. Copy and paste this line of code into the body of your html file where you want the arrow to be
+
+
+<div class="display"><p class="arrow">&#8675;</p></div>
+
+
+------------------------------------------------------------------------------------------
+Advanced Set-Up
+Below is a copy of the css file for this arrow animation. 
+Inbetween the forwardslashes (/*) are ways you can alter the arrows animation, size, position, and color
+Make sure to save any changes you wish to see to the arrow.css file in your public html folder. 
+If you don't see the changes you made on your website after reloading the page, press CTRL+F5. 
+The page should refresh and you should see your changes. If you still don't see your changes, reach out to me at
+aliesha@solutionsbyaliesha.com.
+
+@keyframes arrow {/*change the amount of keyframes in the animation by adding or removing brackets(X% {}) from here*/
+  0%   {top:0px;} /*change where the arrow animation starts*/
+  25%  {top:0px;} 
+  50%  {top:100px;} /*change how far the arrow goes down*/
+  75%  {top:100px;}
+  100% {top:0px;} 
+}
+.arrow {
+  text-align: center; /*change position of arrow in display div*/
+  font-size: large; /*change size of arrow*/
+  margin:auto;
+  position: relative; 
+  animation:infinite; /*change how many times the animation happens in browser session*/
+  animation-name: arrow;
+  animation-duration: 3s; /*change how long the animation takes*/
+  color: white; /*you can change the color of the arrow by changing the word white to any other color*/
+}
+.display {
+background-color: maroon; /*change background color*/
+padding:5%; /*change space around arrow*/
+height: 100px; /*change hieght of display div*/
+width: 25%; /*change width of diplay div*/
+margin: auto; /*change position of arrow*/
+}

@@ -1,0 +1,63 @@
+body, html {
+    background: linear-gradient(45deg, whitesmoke, blue);
+    text-align: center;
+    color: bisque;
+    margin: 0;
+}
+.header {
+    margin-top: 2%;
+}
+nav {
+    display: flex;
+    flex-direction: row-reverse;
+    background-color:transparent;
+    padding: 0;
+    height:fit-content;
+    padding: 5px;
+}
+nav a {
+    text-decoration: none;
+    margin: 0;
+    color: whitesmoke;
+    border: 3px solid whitesmoke;
+    padding: 5px;
+}
+nav li {
+    list-style: none;
+}
+img {
+width: 10%;
+height:15%
+}
+.explanation {
+    background: white;
+    margin: 0;
+    top: 0;
+    width: 100%;
+}
+.main-content {
+    border: 5px solid white;
+    margin: 5%;
+    padding: 2%;
+}
+.footer {
+    background-color: transparent;
+    margin:0;
+    bottom:0;
+    display: flex;
+    flex-direction:column ;
+    text-align: center;
+    height: 35%;
+}
+ul{
+    text-indent: 0;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+span {
+    text-decoration: underline;
+}
+hr {
+    margin: 0;
+}

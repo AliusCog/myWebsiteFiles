@@ -1,0 +1,41 @@
+{
+    "website-templates": [
+        {
+            "id": 1,
+            "name": "bw5",
+            "price": 1000,
+            "iframesrc": "5PageB&W.html"
+        },
+        {
+            "id": 2,
+            "name": "blueblur",
+            "price": 1000,
+            "iframesrc": "bluegrad.html"
+        },
+        {
+            "id": 3,
+            "name": "blu3",
+            "price": 1500,
+            "iframesrc": "bluegrad3.html"
+        },
+        {
+            "id": 4,
+            "name": "blu5",
+            "price": 2000,
+            "iframesrc": "bluegrad5.html"
+        } 
+    ],
+    "landing-pages": [
+        
+    ],
+
+    "website-features": [
+
+    ],
+    "ebooks": [
+
+    ],
+    "video-courses": [
+
+    ]
+}
